@@ -8,27 +8,27 @@ The ICFN - Nature and Forest Conservation Institute has the record of the list o
 
 In the file fires_train.csv, you have data on reported forest fires during 2014 and 2015, for which the cause is known.  The attributes have information regarding the forest fire’s alarm point and the total affected area:
 
-id
-region
-district
-municipality
-parish
-lat
-lon
-origin
-alert_date
-alert_hour
-extinction_date
-extinction_hour
-firstInterv_date
-firstInterv_hour
-alert_source
-village_area
-vegetation_area
-farming_area
-village_veget_area
-total_area
-intentional_cause
+id, 
+region, 
+district, 
+municipality, 
+parish, 
+lat, 
+lon, 
+origin, 
+alert_date, 
+alert_hour, 
+extinction_date, 
+extinction_hour, 
+firstInterv_date, 
+firstInterv_hour, 
+alert_source, 
+village_area, 
+vegetation_area, 
+farming_area, 
+village_veget_area, 
+total_area, 
+intentional_cause.
 
 The goal of this practical assignment is to build a machine learning model to predict the cause type of a forest fire: intentional or non-intentional.
 
